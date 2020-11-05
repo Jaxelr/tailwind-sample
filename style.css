@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-card {
+    @apply max-w-md border-2 border-solid border-green-500;   
+}
+
+.article-card:hover {
+    @apply bg-green-600 text-white
+}
